@@ -1,0 +1,92 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea,
+button {
+  outline: none;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+textarea {
+  resize: none;
+}
+button {
+  cursor: pointer;
+}
+label,
+input {
+  font-size: 1.6rem;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 0;
+}
+table {
+  // border-collapse: collapse;
+  // border-spacing: 0;
+}
+$primaryColor: #fc556f;
+$secondaryColor: #fd9c84;
+$blueColor: #42a7fe;
+$greenColor: #00c899;
+@mixin flexbox(
+  $align: flex-start,
+  $justify: flex-start,
+  $flex-direction: row,
+  $wrap: nowrap
+) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $flex-direction;
+  flex-wrap: $wrap;
+}
+@mixin size($width: width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+.grid-layout {
+  & div {
+    padding: 5rem;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .header {
+    background-color: #0f1320;
+  }
+  .menu {
+    background-color: #d52e3f;
+  }
+  .hero {
+    background-color: #3c6ead;
+  }
+  .main {
+    background-color: #1f283a;
+  }
+  .banner {
+    background-color: #e5b555;
+  }
+  .extra {
+    background-color: #3da17e;
+  }
+  .image {
+    background-color: #a8c8cb;
+  }
+}

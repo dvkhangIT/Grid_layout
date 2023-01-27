@@ -1,0 +1,75 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: none;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+label,
+input {
+  font-size: 1.6rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 0;
+}
+
+.grid-layout div {
+  padding: 5rem;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.grid-layout .header {
+  background-color: #0f1320;
+}
+.grid-layout .menu {
+  background-color: #d52e3f;
+}
+.grid-layout .hero {
+  background-color: #3c6ead;
+}
+.grid-layout .main {
+  background-color: #1f283a;
+}
+.grid-layout .banner {
+  background-color: #e5b555;
+}
+.grid-layout .extra {
+  background-color: #3da17e;
+}
+.grid-layout .image {
+  background-color: #a8c8cb;
+}
+
+/*# sourceMappingURL=style.css.map */
